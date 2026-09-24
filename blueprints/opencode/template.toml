@@ -7,6 +7,7 @@ opencode_password = "${password:32}"
 serviceName = "opencode"
 port = 4096
 host = "${main_domain}"
+https = true
 
 [config.env]
 OPENCODE_SERVER_USERNAME = "opencode"
